@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Hlavička na mobilu (390 px, všechny buňky 1–6) pořád není opravená. Název „Zdeněk Breu“ se zalamuje na dva řádky („Zdeněk“ / „Breu“), blesk chybí a v buňce 1 je horní okraj textu useknutý. Oprava: na šířce pod 600 px dát název na jeden řádek s `white-space: nowrap`, písmo kolem 17 px a před něj blesk jako na PC. Hlavička má mít jeden řádek a výšku nejvýš 60 px.",
+    "Odkazy v mobilní hlavičce (ZABEZPEČENÍ, ELEKTRO, REVIZE a pod nimi KONTAKT) jsou pořád dvouřádkové, drobným mono písmem kolem 11 px, a jsou bez rozestupů. Oprava: na mobilu je skrýt. Vpravo místo nich dát jedno tlačítko „Napsat“ s kotvou na #kontakt, výškou 44 px, ve žluté jako „Napsat e-mail“. Případně tlačítko „Menu“, které otevře seznam s položkami vysokými 44 px.",
+    "Odkaz „Přeskočit na obsah“ (a.skip) má podle QA na mobilu jen 143×27 px. Oprava: při fokusu mu dát `min-height: 44px` a `padding: 12px 16px`, aby splnil i poslední hlášený dotykový cíl."
+  ],
+  "silne": [
+    "Číslování 01/02/03 zmizelo. Nad h2 jsou teď značky z legendy plánu: rozvaděč u Revize, zásuvka u Elektroinstalace a terč u Zabezpečení. Nápad s plánem domu se tak táhne celou stránkou.",
+    "Domovní elektroinstalace má teď rozvaděč s čárkovanou linkou ke třem kartám okruhů a u každé je konkrétní věta. Sekce už není prázdná a na plán z hero navazuje.",
+    "„Jeden člověk od kabelu po poplach“ je teď úvod kontaktu. Přibylo velké žluté tlačítko „Napsat e-mail“ a vedle něj formulář, takže konverze je jasná.",
+    "Obsah drží brief (Jablotron, Ajax, Elnika plus, Modlany) a nic není vymyšlené. „Revizní zpráva“ je pěkný oborový prvek. Na žádné šířce nic nepřetéká."
+  ],
+  "verdikt": "opravit – dvě ze tří výtek jsou dobře opravené a koncept s plánem domu teď drží celou stránku. Mobilní hlavička je ale pořád dvouřádková, se zalomeným jménem a drobnými odkazy. Po její opravě je web na 8 a dá se odeslat.",
+  "_hash": "a335f5e03e79a6eae9a94b50e30c134dcc526129"
+}

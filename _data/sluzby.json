@@ -1,0 +1,43 @@
+[
+  {
+    "id": "zabezpeceni",
+    "kicker": "Hlavní obor",
+    "nazev": "Zabezpečení a kamery",
+    "popis": "Zabezpečovací systémy Jablotron a Ajax, kamerové okruhy a jejich zapojení do domu tak, aby se s nimi dalo normálně žít. Kamery děláme ve spolupráci s firmou Elnika plus s.r.o.",
+    "body": [
+      "Poplachové systémy Jablotron a Ajax",
+      "Kamerové systémy (ve spolupráci s Elnika plus s.r.o.)",
+      "Zapojení do elektroinstalace domu čistě a bezpečně"
+    ]
+  },
+  {
+    "id": "elektro",
+    "kicker": "Rozvody",
+    "nazev": "Domovní elektroinstalace",
+    "popis": "Rozvody, zásuvky, světla i datové rozvody a internet. Od nové instalace po úpravy ve starším domě.",
+    "body": [
+      {
+        "t": "Rozvody a rozvaděče",
+        "p": "Nový rozvaděč nebo úprava stávajícího, přehledně popsaný."
+      },
+      {
+        "t": "Zásuvky a světla",
+        "p": "Okruhy zásuvek a osvětlení tam, kde je v domě opravdu potřebujete."
+      },
+      {
+        "t": "Datové rozvody a internet",
+        "p": "Kabeláž pro internet a síť vedená spolu s elektřinou, ne dodatečně."
+      }
+    ]
+  },
+  {
+    "id": "revize",
+    "kicker": "Kontrola",
+    "nazev": "Revize elektro",
+    "popis": "Revizní technik v jedné osobě s montérem: zkontroluje to, co stojí na vašem domě, a napíše o tom zprávu, které rozumíte.",
+    "body": [
+      "Revize elektroinstalace",
+      "Revizní zpráva v lidské řeči"
+    ]
+  }
+]

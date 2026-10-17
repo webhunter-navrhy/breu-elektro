@@ -1,0 +1,52 @@
+{
+  "slug": "breu-elektro",
+  "nazev": "Zdeněk Breu – elektro, zabezpečení, revize",
+  "url": "https://webhunter-navrhy.github.io/breu-elektro/",
+  "base": "/breu-elektro/",
+  "lang": "cs",
+  "popis": "Elektroinstalace, zabezpečovací systémy Jablotron a Ajax, kamerové systémy a revize elektro. Zdeněk Breu, Modlany.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "og.jpg",
+  "logo": "",
+  "theme_color": "#11202e",
+  "typ": "LocalBusiness",
+  "ico": "",
+  "kontakt": {
+    "email": "zbreu@centrum.cz",
+    "telefon": "",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Modlany",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu – Zdeněk Breu"
+  },
+  "nav": [
+    {
+      "text": "Zabezpečení",
+      "href": "#zabezpeceni"
+    },
+    {
+      "text": "Elektro",
+      "href": "#elektro"
+    },
+    {
+      "text": "Revize",
+      "href": "#revize"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ],
+  "nazev_kratky": "Zdeněk Breu"
+}
