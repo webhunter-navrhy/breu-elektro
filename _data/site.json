@@ -11,15 +11,14 @@
   "logo": "",
   "theme_color": "#11202e",
   "typ": "LocalBusiness",
-  "ico": "",
+  "ico": "72736666",
   "kontakt": {
     "email": "zbreu@centrum.cz",
     "telefon": "",
     "adresa": {
-      "ulice": "",
-      "psc": "",
-      "mesto": "Modlany",
-      "zeme": "CZ"
+      "ulice": "Modlany 122",
+      "psc": "417 13",
+      "mesto": "Modlany"
     }
   },
   "oteviraci_doba": [],
