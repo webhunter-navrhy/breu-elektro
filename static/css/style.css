@@ -69,7 +69,7 @@ h3 { font-family: var(--disp); font-weight: 700; font-size: 1.2rem; margin-botto
 @keyframes tok { to { stroke-dashoffset: -20; } }
 
 .znacky-pruh { margin-top: clamp(2.5rem, 5vw, 4.5rem); border-block: 1px solid var(--line); background: #ebe7da; }
-.znacky-pruh p { padding-block: 1rem; font-family: var(--mono); font-size: .85rem; letter-spacing: .02em; }
+.znacky-pruh p { padding-block: 1rem; font-family: var(--txt); font-size: 1rem; }
 .znacky-pruh strong { font-weight: 500; background: var(--zl); padding: .05rem .35rem; }
 
 .sekce { padding-block: clamp(3.5rem, 8vw, 7rem); }
