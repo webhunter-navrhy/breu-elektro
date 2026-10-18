@@ -33,7 +33,7 @@ a { color: inherit; }
 .hlavicka .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .85rem; }
 .logo { font-family: var(--disp); font-weight: 800; font-size: 1.05rem; letter-spacing: -.01em; text-decoration: none; display: flex; align-items: center; gap: .6rem; }
 .logo::before { content: ""; width: .9rem; height: 1.4rem; background: var(--zl); clip-path: polygon(60% 0, 0 58%, 42% 58%, 30% 100%, 100% 38%, 56% 38%); flex: none; }
-nav { display: flex; gap: 1.4rem; font-family: var(--mono); font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+nav { display: flex; gap: 1.4rem; font-family: var(--txt); font-weight: 600; font-size: .98rem; letter-spacing: 0; }
 nav a { text-decoration: none; padding-block: .65rem; border-bottom: 2px solid transparent; }
 nav a:hover { border-color: var(--zl); }
 
@@ -111,7 +111,7 @@ h3 { font-family: var(--disp); font-weight: 700; font-size: 1.2rem; margin-botto
 .formular button:hover { background: var(--zl); color: var(--ink); }
 .formular-stav { margin-top: .8rem; font-size: .9rem; color: var(--muted); }
 .past { position: absolute; left: -9999px; }
-.paticka { background: #0b1620; color: #aab4bc; padding-block: 1.6rem; font-family: var(--mono); font-size: .8rem; }
+.paticka { background: #0b1620; color: #aab4bc; padding-block: 1.6rem; font-family: var(--txt); font-size: .95rem; }
 .paticka .wrap { display: flex; flex-wrap: wrap; gap: .4rem 2rem; justify-content: space-between; }
 
 .rv { opacity: 0; transform: translateY(18px); transition: opacity .6s, transform .6s; } .rv.v { opacity: 1; transform: none; }
