@@ -21,7 +21,7 @@ button { cursor: pointer; }
 h1, h2, h3 { margin: 0; text-wrap: balance; }
 p { margin: 0; text-wrap: pretty; }
 ul[role="list"] { list-style: none; margin: 0; padding: 0; }
-:root { --bg:#f3f0e8; --ink:#11202e; --muted:#51606c; --line:#cfc9b8; --zl:#ffc21a; --cv:#e5412d; --wrap:72rem;
+:root { --bg:#eceef0; --ink:#12161a; --muted:#505860; --line:#c7ccd1; --zl:#ffc21a; --cv:#e5412d; --wrap:72rem;
   --disp:'Bricolage Grotesque',system-ui,sans-serif; --txt:'Figtree',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace; }
 body { background: var(--bg); color: var(--ink); font-family: var(--txt); font-size: 1.0625rem; line-height: 1.6; }
 .wrap { width: min(100% - 2.5rem, var(--wrap)); margin-inline: auto; }
@@ -52,7 +52,7 @@ h3 { font-family: var(--disp); font-weight: 700; font-size: 1.2rem; margin-botto
 .tl { display: inline-block; background: var(--ink); color: var(--bg); font-weight: 600; text-decoration: none; padding: .85rem 1.5rem; border-radius: 3px; border: 2px solid var(--ink); transition: background .2s, color .2s; }
 .tl:hover { background: var(--zl); color: var(--ink); }
 .tl-tich { background: transparent; color: var(--ink); } .tl-tich:hover { background: var(--ink); color: var(--bg); }
-.plan { margin: 0; background: #faf8f2; border: 1px solid var(--line); padding: 1rem 1rem .8rem; box-shadow: 8px 8px 0 var(--ink); }
+.plan { margin: 0; background: #f7f8f9; border: 1px solid var(--line); padding: 1rem 1rem .8rem; box-shadow: 8px 8px 0 var(--ink); }
 .plan svg { width: 100%; }
 .plan .mista text { font-family: var(--mono); font-size: 11px; fill: var(--muted); letter-spacing: .1em; }
 .plan .znacky text { font-family: var(--mono); font-size: 10px; fill: var(--ink); font-weight: 500; letter-spacing: .06em; }
@@ -68,7 +68,7 @@ h3 { font-family: var(--disp); font-weight: 700; font-size: 1.2rem; margin-botto
 .vedeni { stroke-dashoffset: 0; animation: tok 1.6s linear infinite; }
 @keyframes tok { to { stroke-dashoffset: -20; } }
 
-.znacky-pruh { margin-top: clamp(2.5rem, 5vw, 4.5rem); border-block: 1px solid var(--line); background: #ebe7da; }
+.znacky-pruh { margin-top: clamp(2.5rem, 5vw, 4.5rem); border-block: 1px solid var(--line); background: #e1e4e7; }
 .znacky-pruh p { padding-block: 1rem; font-family: var(--txt); font-size: 1rem; }
 .znacky-pruh strong { font-weight: 500; background: var(--zl); padding: .05rem .35rem; }
 
@@ -87,14 +87,14 @@ h3 { font-family: var(--disp); font-weight: 700; font-size: 1.2rem; margin-botto
 .okruhy { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; }
 .okruhy-sv { width: 100%; height: 100%; }
 .okruhy-sez { display: grid; gap: 1rem; }
-.okruhy-sez li { position: relative; background: #faf8f2; border: 1.5px solid var(--ink); padding: 1.3rem 1.5rem 1.3rem 2rem; box-shadow: 5px 5px 0 var(--zl); }
+.okruhy-sez li { position: relative; background: #f7f8f9; border: 1.5px solid var(--ink); padding: 1.3rem 1.5rem 1.3rem 2rem; box-shadow: 5px 5px 0 var(--zl); }
 .okruhy-sez p { color: var(--muted); }
 .uzel { position: absolute; left: -.55rem; top: 1.6rem; width: 1rem; height: 1rem; background: var(--zl); border: 2px solid var(--ink); border-radius: 50%; }
 .tl-zl { background: var(--zl); color: var(--ink); border-color: var(--zl); font-size: 1.05rem; min-height: 2.9rem; } .tl-zl:hover { background: #f3f0e8; border-color: #f3f0e8; }
 .seznam-cary li { font-family: var(--disp); font-weight: 600; font-size: 1.3rem; padding: 1rem 0; border-bottom: 2px solid var(--ink); }
 .seznam-cary li:first-child { border-top: 2px solid var(--ink); }
-.rev { background: #ebe7da; border-block: 1px solid var(--line); }
-.protokol { background: #faf8f2; border: 1px solid var(--ink); padding: 1.6rem; font-family: var(--mono); font-size: .85rem; transform: rotate(1.2deg); box-shadow: 6px 6px 0 var(--zl); }
+.rev { background: #e1e4e7; border-block: 1px solid var(--line); }
+.protokol { background: #f7f8f9; border: 1px solid var(--ink); padding: 1.6rem; font-family: var(--mono); font-size: .85rem; transform: rotate(1.2deg); box-shadow: 6px 6px 0 var(--zl); }
 .protokol p { display: flex; justify-content: space-between; gap: 1rem; padding: .7rem 0; border-bottom: 1px dashed var(--line); }
 .protokol b { font-weight: 500; color: #1f7a45; text-align: right; }
 .protokol .pr-h { font-family: var(--disp); font-weight: 800; font-size: 1.15rem; text-transform: uppercase; letter-spacing: .02em; border-bottom: 2px solid var(--ink); }
@@ -136,3 +136,17 @@ h3 { font-family: var(--disp); font-weight: 700; font-size: 1.2rem; margin-botto
 }
 .logo { min-height: 44px; }
 .skip { min-height: 44px; display: inline-block; }
+
+/* kolo 21. 10.: světle šedé sekce s černým písmem, kontakt tmavě modrý s bílým písmem */
+.tmava { background: #e1e4e7; color: var(--ink); border-block: 1px solid var(--line); }
+.tmava .perex { color: var(--muted); }
+.tmava .stitek.zl, .stitek.zl { color: #8a6500; }
+.body li { border-bottom-color: #bfc5ca; } .body li:first-child { border-top-color: #bfc5ca; }
+.zony { background: #bfc5ca; border-color: #bfc5ca; } .zony div { background: #f7f8f9; }
+.zony h3 { color: var(--ink); } .zony p { color: var(--muted); }
+.kontakt { background: #14284b; color: #fff; border: 0; }
+.kontakt .perex { color: #fff; }
+.kontakt .stitek.zl { color: var(--zl); }
+.kontakt .kont-radek, .kontakt .kont-radek span { color: #fff; } .kontakt .kont-radek span { color: var(--zl); }
+.form-box { background: #fff; color: var(--ink); }
+.paticka { background: #0e1d38; color: #c9d1de; }
