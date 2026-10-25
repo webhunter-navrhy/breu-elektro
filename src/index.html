@@ -112,6 +112,7 @@
       <h2>Jeden člověk od kabelu po poplach</h2>
       <p class="perex">Elektroinstalace, zabezpečení a revize sedí na jednom vedení. Když to dělá jedna ruka, neřešíte, kdo odpovídá za rozvaděč a kdo za alarm. Napište pár vět a ozvu se vám.</p>
       <p class="kont-radek"><span>Zdeněk Breu</span>Modlany</p>
+      {% if site.kontakt.telefon %}<p class="kont-radek"><span>Telefon</span><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>{% endif %}
       <p class="kont-radek"><a class="tl tl-zl" href="mailto:{{ site.kontakt.email }}">Napsat e-mail</a></p>
     </div>
     <div class="form-box">{% include "_formular.html" %}</div>
